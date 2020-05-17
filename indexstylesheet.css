@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*common */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: : 0 15px;
+  margin: 20px auto;
+}
+
+.clear {
+  clear: left;
+}
+
+.title {
+  text-align: center;
+}
+
+
+.game-form {
+  border: 1px solid black;
+  display: none;
+}
+
+.none {
+  display: none;
+}
+
+.menu {
+  height: 700px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu-text {
+  font-size: 20px;
+}
+
+.pn-textbox {
+  border: 1px solid black;
+  display: inline-block;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #d3d3d3;
+  border-radius: 3px;
+}
+
+.pn-btn {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 0 20px;
+  height: 30px;
+  background-color: #d3d3d3;
+  border-radius: 3px;
+  line-height: 30px;
+  box-shadow: 7px 7px #808080;
+}
+
+.pn-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.pn-btn:active {
+  box-shadow: none;
+  position: relative;
+  top:7px;
+  opacity: 1;
+}
+
+
+.choice-box {
+  margin: 0 auto;
+  height: 80px;
+  width: 40%;
+  border: 1px solid black;
+  margin-top: 30px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+#restart {
+  display: none;
+}
+
+
+
+.choice-box i  {
+  font-size: 30px;
+}
+
+.choice {
+  display: inline-block;
+  width: 40%;
+  font-size: 20px;
+
+}
+
+.choice-text {
+  width: 80%;
+  line-height: 40px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.choice-text i {
+  font-style: normal;
+  font-size: 20px;
+}
+
+.choice-icon {
+  width: 10%;
+}
+
+.choice-text-r {
+  width: 90%;
+  line-height: 40px;
+  margin-top: 0;
+}
+
+.choice-icon-n {
+  width: 20%;
+}
+
+.choice-box-n {
+  box-shadow: 7px 7px #808080;
+}
+
+.choice-box-n:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.choice-box-n:active {
+  box-shadow: none;
+  position: relative;
+  top:7px;
+  opacity: 1;
+}
+
+.choice-box-r {
+  margin: 0 auto;
+  height: 40px;
+  width: 40%;
+  border: 1px solid black;
+  margin-top: 30px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+.fa-male {
+  margin-right: 15px;
+}
+
+.p1 {
+  color: #ff3333;
+}
+
+.p2 {
+  color: #3333ff;
+}
+
+.p3 {
+  color: #ffff33;
+}
+
+.p4 {
+  color: #00cc00;
+}
